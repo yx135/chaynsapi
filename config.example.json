@@ -1,0 +1,23 @@
+{
+    "api": {
+        "user_tobit_id": 0,
+        "bearer_token": "YOUR_BEARER_TOKEN_HERE"
+    },
+    "server": {
+        "host": "0.0.0.0",
+        "port": 5555,
+        "debug": true
+    },
+    "session": {
+        "timeout": 3600,
+        "retry": {
+            "max_attempts": 5,
+            "delay": 1
+        }
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(levelname)s - %(message)s",
+        "date_format": "%Y-%m-%d %H:%M:%S"
+    }
+} 
